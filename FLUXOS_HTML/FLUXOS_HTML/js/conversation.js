@@ -8,7 +8,8 @@ document.addEventListener('DOMContentLoaded', function(){
 
     let last_message = document.querySelector('.box2').innerHTML
     localStorage.setItem('last message', last_message)
-    
+
+    // nome.innerHTML = localStorage.getItem('nome trabalhador')
 
     button.addEventListener('click', function(event){
         text = input.value
